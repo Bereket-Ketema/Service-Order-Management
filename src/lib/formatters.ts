@@ -21,3 +21,4 @@ export function formatDate(dateString: string): string {
 export function formatHours(hours: number): string {
   return `${hours} ${hours === 1 ? 'hr' : 'hrs'}`;
 }
+/* Utility constants for order states */
