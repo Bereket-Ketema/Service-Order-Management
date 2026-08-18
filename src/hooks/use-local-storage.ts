@@ -20,3 +20,4 @@ export function useLocalStorage<T>(key: string, initialValue: T): [T, (val: T | 
 
   return [storedValue, setStoredValue];
 }
+/* Local storage key constants */
