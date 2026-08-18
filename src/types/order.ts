@@ -27,4 +27,4 @@ export interface OrderFilterOptions {
   priority?: PriorityLevel | 'all';
   sortBy?: 'createdAt' | 'dueDate' | 'customerName';
   sortOrder?: 'asc' | 'desc';
-}
+}// Service order validation schema declarations
